@@ -22,7 +22,8 @@ str(dat.test)
 # figure how to read this in
 system("cat data/data_description.txt")
 # how we read this file in nice? idk what format it is..
-
+# why not read.csv?
+read.csv("cat data/data_description.txt")
 
 # head(read.csv("data/sample_submission.csv"))
 colnames(dat.train)[!colnames(dat.train)%in%colnames(dat.test)]
